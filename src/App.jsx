@@ -17,7 +17,7 @@ function App() {
   
     <Routes>
       <Route path='/signup' element={<Signup/>}></Route>
-      <Route path='/react_ecommerce' element={<Signinpage/>}></Route>
+      <Route path='/' element={<Signinpage/>}></Route>
       <Route path='/product' element={<Productpage/>}/>
       <Route path="/list" element={<Addtocart/>}/>
       <Route path='/address' element={<Address/>}/>
