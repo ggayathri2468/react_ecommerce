@@ -1,0 +1,77 @@
+.sidebarfull {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.511);
+}
+
+.your_cart_heading {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.empty_img_size {
+  height: 200px;
+  width: 200px;
+}
+
+.cards_map_div {
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.productname {
+  font-weight: bold;
+  color: rgb(131, 130, 130);
+}
+
+.action_div {
+  width: 50px;
+  text-align: center;
+}
+
+.select_checkbox {
+  height: 15px;
+  width: 15px;
+  margin-top: 3px
+}
+
+.decre_count {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.minsicon {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.incrementdiv {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.checkoutbtn {
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #5d006da5;
+  margin-right: 20px;
+  color: white;
+  border: none;
+}

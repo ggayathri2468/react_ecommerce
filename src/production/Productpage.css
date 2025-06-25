@@ -1,0 +1,92 @@
+.sidebar {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  width: 0;
+  background-color: #ffffff;
+  border: 1px solid black;
+  transition: 0.5s;
+
+}
+
+.no-scroll {
+  overflow-y: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.sidebar .closebtn {
+
+  top: 0;
+
+  font-size: 16px;
+  padding: 10px 0px;
+  margin-left: 10px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+
+  border: none;
+}
+
+.openbtn:hover {
+  color: #444;
+}
+
+.productdiv {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 5px;
+  max-width: 200px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.imgsize {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+.productname {
+  color: rgb(131, 130, 130);
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.productprice {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.rupeeicon {
+  padding-right: 3px;
+}
+
+.freedelivery {
+  padding: 3px 5px;
+  color: grey;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.add_to_cart_btn {
+  font-size: 16px;
+  background-color: #5d006da5;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav_div {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  margin-bottom: 10px;
+}

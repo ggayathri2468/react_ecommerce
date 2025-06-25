@@ -1,0 +1,25 @@
+.buyagain{
+    color: rgb(255, 25, 0);
+    cursor: pointer;
+}
+.orderlistdiv{
+    width: 100%;
+    
+}
+.ordercart{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    border: 1px solid gainsboro;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartimg{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.arrowicon{
+    color: rgb(255, 25, 0);
+}

@@ -1,0 +1,75 @@
+.sideimg1 {
+    height: 520px;
+    width: 500px;
+    background: linear-gradient(#41054b, #BA68C8);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.title1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: -240px 0px;
+    animation: backgroundcolr 5s linear infinite alternate;
+    text-align: center;
+}
+
+@keyframes backgroundcolr {
+    100% {
+        background-position: 0px 0px;
+    }
+}
+
+.sign {
+    width: 500px;
+    border: 1px solid #41054b;
+    height: 520px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 70px 0px;
+}
+
+.signinhead {
+    -webkit-text-stroke: 1px #41054b;
+    color: #BA68C8;
+}
+
+.signinbtn {
+    /* border-color: #41054b; */
+    border-radius: 5PX;
+    background-color: #BA68C8;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 60%;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.error {
+    font-size: 14px;
+    color: rgb(212, 1, 1);
+}
+
+.singininput {
+    width: 60%;
+    margin: 25px auto 10px
+}
+.spansignup{
+     font-weight: bold;
+      color: #BA68C8;
+}

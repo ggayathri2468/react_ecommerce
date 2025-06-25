@@ -1,0 +1,24 @@
+.addresbtn{
+      background-color: #BA68C8;
+      color: white;
+      width: 200px;
+      margin: 15px;
+      height:40px;      
+      border-radius:10px ;
+      font-weight:bold;
+      border: none;
+}
+.error{
+    font-size: 14px;
+    color: rgb(212, 1, 1);
+    margin-left: 15px;
+}
+.inputnumber::-webkit-outer-spin-button,
+.inputnumber::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputnumber {
+    -moz-appearance: textfield;
+}

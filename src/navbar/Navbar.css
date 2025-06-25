@@ -1,0 +1,60 @@
+.profile:hover .profilediv {
+    display: block;
+}
+
+.profilediv {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 1;
+    top: 80px;
+    right: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 200px;
+    padding: 15px;
+    font-size: 16px;
+}
+.openbtn{
+     position: relative;
+}
+
+.usericon {
+    margin-right: 5px;
+    color: white;
+}
+
+.username {
+    font-weight: bold;
+    color: white;
+}
+
+.linktag {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.navbar_outer_div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #5d006da5;
+}
+
+.left_div_of_nav {
+    width: 150px;
+    height: 100%;
+    font-size: 20px
+}
+
+.cartcount {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #41054b;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}

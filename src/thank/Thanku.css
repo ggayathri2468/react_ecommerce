@@ -1,0 +1,82 @@
+@media (min-width: 481px) and (max-width: 767px) {
+
+   .media {
+      flex-direction: column;
+   }
+
+   .sidesticky {
+      position: relative;
+      top: auto;
+      height: auto;
+      width: 100% !important;
+   }
+}
+
+.sidesticky {
+   background-color: rgb(231, 231, 231);
+   height: 100vh;
+   width: 60%;
+   position: sticky;
+   top: 0px;
+
+}
+
+@media (min-width: 760px) and (max-width: 900px) {
+
+   .media {
+      flex-direction: column;
+   }
+
+   .sidesticky {
+      position: relative;
+      top: auto;
+      height: auto;
+      width: 100% !important;
+
+   }
+}
+
+.order_details {
+   width: 500px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.contiune_shpping_btn {
+   border-radius: 10px;
+   color: white;
+   background-color: #5d006da5;
+   border: none;
+   padding: 3px 10px;
+   margin-bottom: 20px;
+}
+
+.cart_div {
+   Width: 100%;
+   height: 100%;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+
+.num_count {
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   background-color: rebeccapurple;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   position: absolute;
+   top: -10px;
+   right: -5px;
+}
+
+.map_inner_div {
+   margin: 10px auto;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   padding: 10px;
+   border-radius: 10px;
+   width: 300px;
+   background-color: white;
+}
