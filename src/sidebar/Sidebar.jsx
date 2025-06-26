@@ -15,11 +15,11 @@ function Sidebar(props) {
 
   const useremail = localStorage.getItem("email");
   useEffect(() => {
-    console.log(useremail);
+
     axios
       .get(`http://localhost:3000/datas?email=${useremail}`)
       .then((res) => {
-        console.log(res.data[0].addtocard);
+       
         setTabledata(res.data[0].addtocard);
         setUserdata(res.data[0]);
       })
@@ -43,8 +43,8 @@ function Sidebar(props) {
         ...userdata,
         addtocard: filtereddata,
       })
-      .then((res) => {
-        console.log(res);
+      .then(() => {
+ 
       
         setBoolstate(!boolstate);
       })
@@ -82,14 +82,13 @@ function Sidebar(props) {
       }
     });
 
-   console.log([...filtereddata2,{...filtereddata,count:count}])
     axios
       .put(`http://localhost:3000/datas/${userdata.id}`, {
         ...userdata,
         addtocard:[...filtereddata2,{...filtereddata,count:count}]
       })
-      .then((res) => {
-        console.log(res);
+      .then(() => {
+       
 
         setBoolstate(!boolstate);
       })
@@ -102,16 +101,16 @@ function Sidebar(props) {
     if(check){
      if(checkeditem.length==0){
       setCheckeditem([item])
-      console.log(item)
+   
      }else{
       setCheckeditem([...checkeditem,item])
-      console.log([...checkeditem,item])
+   
      }
     }else{
       let temp=checkeditem.filter((value)=>(
         value.id!==item.id
       ))
-      console.log(temp)
+   
       setCheckeditem(temp)
     } 
     

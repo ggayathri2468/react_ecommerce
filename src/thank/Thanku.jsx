@@ -36,7 +36,7 @@ function Thanku() {
       .get(`http://localhost:3000/datas?email=${email}`)
       .then((res) => {
         setUserdata(res.data[0]);
-        console.log(userdata);
+       
       })
       .catch((e) => {
         console.log("error", e);

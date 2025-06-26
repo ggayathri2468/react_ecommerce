@@ -5,12 +5,11 @@ import { useLocation } from "react-router-dom";
 
 function Orderfulldetail() {
   const location = useLocation();
-  const id = location.state.id;
+
   const orderlist = location.state.data;
 
   const email = localStorage.getItem("email");
-  console.log("id", id);
-  console.log("orderlisting", orderlist);
+ 
   useEffect(() => {
     return () => {};
   }, []);

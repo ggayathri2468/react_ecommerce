@@ -213,12 +213,12 @@ function Orderplace() {
     }
   }
   function funcall(temp) {
-    console.log("temp", temp);
+    
     try {
       axios
         .put(`http://localhost:3000/datas/${userdata.id}`, temp)
-        .then((res) => {
-          console.log(res);
+        .then(() => {
+        
 
           setSelectedRadioIndex(null); // Clear selected radio
           setAddress({
@@ -242,7 +242,7 @@ function Orderplace() {
           console.log("error", e);
         });
     } catch (e) {
-      console.log(e);
+      console.log("error",e);
     }
   }
   return (

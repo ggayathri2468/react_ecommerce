@@ -28,12 +28,12 @@ function Navbar(props) {
         if (oneuser.addtocard) {
           setLengthofcard(oneuser.addtocard.length);
         }
-        console.log(oneuser);
+       
       })
       .catch((e) => {
         console.log("error", e);
       });
-    console.log(getuser);
+  
   }, [props.bool, props.boolstate]);
   function removeaccount() {
     localStorage.removeItem("email");

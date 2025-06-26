@@ -60,8 +60,8 @@ function Productpage() {
     if (temp) {
       axios
         .put(`http://localhost:3000/datas/${getuser.id}`, temp)
-        .then((res) => {
-          console.log(res);
+        .then(() => {
+         
          
           setBool(!bool);
         })

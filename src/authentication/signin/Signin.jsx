@@ -29,10 +29,10 @@ function Signinpage() {
       axios
         .get(`http://localhost:3000/datas?username=${getdata.username}`)
         .then((data) => {
-          console.log(data.data[0]);
+        
           localStorage.setItem("email", data.data[0].email);
           if (data.data[0].password === getdata.password) {
-            console.log("correct");
+           
              navicate("/product");
              setGetdata({username:"",password:""})
           } else {

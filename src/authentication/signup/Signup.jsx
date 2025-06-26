@@ -40,8 +40,8 @@ export function Signup() {
         phoneerror === "" &&
         confirmerror === ""
       ) {
-        axios.post("http://localhost:3000/datas", formData).then((res) => {
-          console.log(res);
+        axios.post("http://localhost:3000/datas", formData).then(() => {
+         
 
           setFormData({
             username: "",
