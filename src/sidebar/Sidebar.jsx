@@ -151,7 +151,7 @@ function Sidebar(props) {
                       style={{ height: "80px" }}
                     />
                   </div>
-                  <div style={{fontWeight:"bold",color:"rgb(131, 130, 130)"}}>{item.productname}</div>
+                  <div style={{color:"rgb(131, 130, 130)",padding:"5px 0px 0px 5px" ,fontSize:"14px"}}>{item.productname}</div>
                 </div>
                 <div style={{ width: "50px", textAlign: "center" }}>
                   <i
@@ -199,6 +199,7 @@ function Sidebar(props) {
                   </div>
                 </div>
                 <div style={{fontWeight:"bold"}}>
+                
                   <i className="fa-solid fa-indian-rupee-sign" style={{paddingRight:"3px"}}></i>
                   { (() => {
       const cleanedPrice = parseFloat(item.price.replace(/[^\d.]/g, ''));

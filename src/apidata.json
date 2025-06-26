@@ -7,182 +7,40 @@
       "password": "12345",
       "addtocard": [
         {
-          "id": "3",
-          "product_type": "Phone",
-          "img_link": "/react_ecommerce/images/image3.webp",
-          "price": "35,000",
-          "productname": "Poco C61",
-          "count": 1
-        },
-        {
           "id": "1",
           "product_type": "Phone",
-          "img_link": "/react_ecommerce/images/image.png",
-          "price": "11,000",
-          "productname": "Vivo V20",
-          "count": 1
-        }
-      ],
-      "address": [
-        {
-          "firstname": "dhiya",
-          "lastname": "yazhini",
-          "address": "no. 33 t.na sambandham street,mohalinga nagar, kundrathur",
-          "city": "Chennai",
-          "state": "Tamilnadu",
-          "pincode": "600069",
-          "phoneno": "08934873597"
-        },
-        {
-          "firstname": "dhiya",
-          "lastname": "yazhini",
-          "address": "no. 33 tna sambandham stree mohaligam nagar",
-          "city": "chenai",
-          "state": "tamilnadu",
-          "pincode": "600069",
-          "phoneno": "08645783467"
-        },
-        {
-          "firstname": "mithu",
-          "lastname": "dev",
-          "address": "no.23 l street",
-          "city": "Chennai",
-          "state": "Tamilnadu",
-          "pincode": "600021",
-          "phoneno": "7584993775"
+          "img_link": "/react_ecommerce/images/OnePlus.webp",
+          "price": "14,599",
+          "delete": "16,479",
+          "discount": "10%",
+          "productname": "OnePlus Nord CE 2 Lite 5G",
+          "count": 2
         }
       ],
       "orderdetails": [
         {
-          "data": "21/06/2025",
-          "products": [
-            {
-              "id": "1",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/images/image.png",
-              "price": "11,000",
-              "productname": "Vivo V20",
-              "count": 2
-            }
-          ],
-          "address": {
-            "firstname": "dhiya",
-            "lastname": "yazhini",
-            "address": "no. 33 tna sambandham stree mohaligam nagar",
-            "city": "chenai",
-            "pincode": "600069",
-            "state": "tamilnadu",
-            "phoneno": "08645783467"
-          }
-        },
-        {
-          "data": "24/06/2025",
+          "data": "26/06/2025",
           "products": [
             {
               "id": "2",
               "product_type": "Phone",
-              "img_link": "/react_ecommerce/images/image2.jpg",
-              "price": "13,500",
-              "productname": "One Plus",
-              "count": 1
+              "img_link": "/react_ecommerce/images/Samsung.webp",
+              "price": "8,990",
+              "delete": "14,490",
+              "discount": "10%",
+              "productname": "Samsung Galaxy A06 5G",
+              "count": 1,
+              "date": "26/06/2025"
             }
           ],
           "address": {
-            "firstname": "dhiya",
-            "lastname": "yazhini",
-            "address": "no. 33 tna sambandham stree mohaligam nagar",
-            "city": "chenai",
-            "pincode": "600069",
+            "firstname": "gayathri",
+            "lastname": "p",
+            "address": "33 t.na samandham street mohalinga nagar kundrathur",
+            "city": "chennai",
             "state": "tamilnadu",
-            "phoneno": "08645783467"
-          }
-        },
-        {
-          "data": "24/06/2025",
-          "products": [
-            {
-              "id": "2",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/images/image2.jpg",
-              "price": "13,500",
-              "productname": "One Plus",
-              "count": 1
-            }
-          ],
-          "address": {
-            "firstname": "dhiya",
-            "lastname": "yazhini",
-            "address": "no. 33 tna sambandham stree mohaligam nagar",
-            "city": "chenai",
             "pincode": "600069",
-            "state": "tamilnadu",
-            "phoneno": "08645783467"
-          }
-        },
-        {
-          "data": "24/06/2025",
-          "products": [
-            {
-              "id": "2",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/images/image2.jpg",
-              "price": "13,500",
-              "productname": "One Plus",
-              "count": 1
-            }
-          ],
-          "address": {
-            "firstname": "venkat",
-            "lastname": "gunasekaran",
-            "address": "15/7 balasubramani street, old washermenpet",
-            "city": "chennai",
-            "state": "TamilNadu",
-            "pincode": "600021",
-            "phoneno": "9840321583"
-          }
-        },
-        {
-          "data": "25/06/2025",
-          "products": [
-            {
-              "id": "1",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/images/image.png",
-              "price": "11,000",
-              "productname": "Vivo V20",
-              "count": 1
-            }
-          ],
-          "address": {
-            "firstname": "venkat",
-            "lastname": "gunasekaran",
-            "address": "15/7 balasubramani street, old washermenpet",
-            "city": "chennai",
-            "state": "TamilNadu",
-            "pincode": "600021",
-            "phoneno": "9840321583"
-          }
-        },
-        {
-          "data": "25/06/2025",
-          "products": [
-            {
-              "id": "4",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/images/image4.webp",
-              "price": "90,000",
-              "productname": "iphone 14",
-              "count": 1
-            }
-          ],
-          "address": {
-            "firstname": "venkat",
-            "lastname": "gunasekaran",
-            "address": "15/7 balasubramani street, old washermenpet",
-            "city": "chennai",
-            "state": "TamilNadu",
-            "pincode": "600021",
-            "phoneno": "9840321583"
+            "phoneno": "8667389401"
           }
         }
       ]
@@ -191,63 +49,7 @@
       "id": "b6ec",
       "username": "kamal",
       "email": "kamal@gmail.com",
-      "password": "kamal1234",
-      "addtocard": [
-        {
-          "id": "2",
-          "product_type": "Phone",
-          "img_link": "/react_ecommerce/image/phone7.jfif",
-          "price": "13,500",
-          "productname": "One Plus",
-          "count": 1
-        }
-      ],
-      "orderdetails": [
-        {
-          "data": "2025-06-19T01:46:05.098Z",
-          "products": [
-            {
-              "id": "4",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/image/phone2.jfif",
-              "price": "90,000",
-              "productname": "iphone 14",
-              "count": 2
-            }
-          ],
-          "address": {
-            "firstname": "ninika",
-            "lastname": "dev",
-            "address": "no.23 l street",
-            "city": "Chennai",
-            "state": "Tamilnadu",
-            "pincode": "600021",
-            "phoneno": "09092675968"
-          }
-        },
-        {
-          "data": "2025-06-19T01:47:59.669Z",
-          "products": [
-            {
-              "id": "3",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/image/phone8.jfif",
-              "price": "35,000",
-              "productname": "Poco C61",
-              "count": 1
-            }
-          ],
-          "address": {
-            "firstname": "dhiya",
-            "lastname": "yazhini",
-            "address": "no. 33 tna sambandham stree mohaligam nagar",
-            "city": "chenai",
-            "state": "tamilnadu",
-            "pincode": "600069",
-            "phoneno": "08645783467"
-          }
-        }
-      ]
+      "password": "kamal1234"
     },
     {
       "id": "3851",
@@ -260,49 +62,7 @@
       "username": "palani",
       "email": "palani@gmail.com",
       "phone": "9790854963",
-      "password": "palani123",
-      "addtocard": [
-        {
-          "id": "3",
-          "product_type": "Phone",
-          "img_link": "/react_ecommerce/image/phone8.jfif",
-          "price": "35,000",
-          "productname": "Poco C61",
-          "count": 1
-        },
-        {
-          "id": "2",
-          "product_type": "Phone",
-          "img_link": "/react_ecommerce/image/phone7.jfif",
-          "price": "13,500",
-          "productname": "One Plus",
-          "count": 3
-        }
-      ],
-      "orderdetails": [
-        {
-          "data": "2025-06-19T02:25:50.514Z",
-          "products": [
-            {
-              "id": "1",
-              "product_type": "Phone",
-              "img_link": "/react_ecommerce/image/phone6.jfif",
-              "price": "11,000",
-              "productname": "Vivo V20",
-              "count": 1
-            }
-          ],
-          "address": {
-            "firstname": "ninika",
-            "lastname": "dev",
-            "address": "no.23 l street",
-            "city": "Chennai",
-            "state": "Tamilnadu",
-            "pincode": "600021",
-            "phoneno": "09092675968"
-          }
-        }
-      ]
+      "password": "palani123"
     },
     {
       "id": "5c17",
@@ -311,121 +71,143 @@
       "phone": "9840321583",
       "password": "12345678",
       "confirmpassword": "12345678"
-    },
-    {
-      "id": "8700",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "password": "",
-      "confirmpassword": ""
     }
   ],
   "products": [
     {
       "id": "1",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image.png",
-      "price": "11,000",
-      "productname": "Vivo V20"
+      "img_link": "/react_ecommerce/images/OnePlus.webp",
+      "price": "14,599",
+      "delete": "16,479",
+      "discount": "10%",
+      "productname": "OnePlus Nord CE 2 Lite 5G"
     },
     {
       "id": "2",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image2.jpg",
-      "price": "13,500",
-      "productname": "One Plus"
+      "img_link": "/react_ecommerce/images/Samsung.webp",
+      "price": "8,990",
+      "delete": "14,490",
+      "discount": "10%",
+      "productname": "Samsung Galaxy A06 5G"
     },
     {
       "id": "3",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image3.webp",
-      "price": "35,000",
-      "productname": "Poco C61"
+      "img_link": "/react_ecommerce/images/POCO.webp",
+      "price": "9,999",
+      "delete": "15,999",
+      "discount": "38%",
+      "productname": "POCO M6 Plus 5G Mobile Phone"
     },
     {
       "id": "4",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image4.webp",
-      "price": "90,000",
-      "productname": "iphone 14"
+      "img_link": "/react_ecommerce/images/Vivo.webp",
+      "price": "10,499",
+      "delete": "14,499",
+      "discount": "28%",
+      "productname": "Vivo T3 Lite 5G Mobile Phone"
     },
     {
       "id": "5",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image5.jpg",
-      "price": "16,000",
-      "productname": "Vivo V50"
+      "img_link": "/react_ecommerce/images/GalaxyF06.webp",
+      "price": "9,799",
+      "delete": "15,499",
+      "discount": "37%",
+      "productname": "Samsung Galaxy F06 5G"
     },
     {
       "id": "6",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image6.webp",
-      "price": "92,000",
-      "productname": "iphone 14 pro"
+      "img_link": "/react_ecommerce/images/OppoA5x.webp",
+      "price": "12,999",
+      "delete": "16,999",
+      "discount": "24%",
+      "productname": "Oppo A5x 5G"
     },
     {
       "id": "7",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image7.webp",
-      "price": "30,000",
-      "productname": "Oppo Reno10 pro+"
+      "img_link": "/react_ecommerce/images/NordCE4Lite.webp",
+      "price": "16,812",
+      "delete": "20,999",
+      "discount": "20%",
+      "productname": "OnePlus Nord CE4 Lite 5G"
     },
     {
       "id": "8",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image8.webp",
-      "price": "18,000",
-      "productname": "Vivo V40"
+      "img_link": "/react_ecommerce/images/Note40X.webp",
+      "price": "14,999",
+      "delete": "15,999",
+      "discount": "10%",
+      "productname": "Infinix Note 40X 5G"
     },
     {
       "id": "9",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image9.webp",
-      "price": "99,999",
-      "productname": "Galaxy A12"
+      "img_link": "/react_ecommerce/images/Pop95G.webp",
+      "price": "10,299",
+      "delete": "11,999",
+      "discount": "14%",
+      "productname": "Tecno Pop 9 5G Mobile Phone"
     },
     {
       "id": "10",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image10.webp",
-      "price": "1,15,000",
+      "img_link": "/react_ecommerce/images/GalaxyA26.webp",
+      "price": "25,999",
+      "delete": "27,999",
+      "discount": "7%",
       "productname": "iphone 15"
     },
     {
       "id": "11",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image11.webp",
-      "price": "45,000",
-      "productname": "Galaxy A54 5g"
+      "img_link": "/react_ecommerce/images/GalaxyA35.webp",
+      "price": "19,999",
+      "delete": "33,999",
+      "discount": "41%",
+      "productname": "Samsung Galaxy A35 5G"
     },
     {
       "id": "12",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image12.webp",
-      "price": "36,000",
-      "productname": "Galaxy F05"
+      "img_link": "/react_ecommerce/images/Note14Pro.webp",
+      "price": "323,999",
+      "delete": "28,999",
+      "discount": "17%",
+      "productname": "Redmi Note 14 Pro 5G"
     },
     {
       "id": "13",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image13.webp",
-      "price": "27,000",
-      "productname": "Oppo Reno7"
+      "img_link": "/react_ecommerce/images/Note40Pro.webp",
+      "price": "18,999",
+      "delete": "27,999",
+      "discount": "32%",
+      "productname": "Infinix Note 40 Pro 5g"
     },
     {
       "id": "14",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image14.webp",
-      "price": "31,000",
-      "productname": "Vivo v57"
+      "img_link": "/react_ecommerce/images/NothingPhone1.webp",
+      "price": "17,999",
+      "delete": "21,999",
+      "discount": "18%",
+      "productname": "CMF by Nothing Phone 1 5G"
     },
     {
       "id": "15",
       "product_type": "Phone",
-      "img_link": "/react_ecommerce/images/image15.webp",
-      "price": "1,15,000",
-      "productname": "iphone 15pro"
+      "img_link": "/react_ecommerce/images/iPhone14.webp",
+      "price": "61,900",
+      "delete": "69,900",
+      "discount": "10%",
+      "productname": "Apple iPhone 14"
     }
   ]
 }

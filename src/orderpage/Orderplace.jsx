@@ -332,7 +332,7 @@ function Orderplace() {
             style={{ margin: "10px auto" }}
           >
             <div
-              className="d-flex justify-content-between  "
+              className="d-flex justify-content-between  gap-2"
               style={{ marginBottom: "20px" }}
             >
               <div>
@@ -571,33 +571,42 @@ function Orderplace() {
                   </div>
                   <div>{value.productname}</div>
                   <div>
-                    ₹
-                    {(() => {
-                      const cleanedPrice = parseFloat(
-                        value.price.replace(/[^\d.]/g, "")
-                      );
-                      const count = Number(value.count);
-                      return !isNaN(cleanedPrice) && count
-                        ? cleanedPrice * count
-                        : 0;
-                    })()}
+                    <div
+                      style={{
+                        fontSize: "14px",
+                        paddingRight: "5px",
+                        color: "rgb(131, 130, 130)",
+                      }}
+                    >
+                      <i
+                        className="fa-solid fa-indian-rupee-sign"
+                        style={{ paddingRight: "1px" }}
+                      ></i>{" "}
+                      <del> {(() => {
+                        const cleanedPrice = parseFloat(
+                          value.delete.replace(/[^\d.]/g, "")
+                        );
+                        const count = Number(value.count);
+                        return !isNaN(cleanedPrice) && count
+                          ? cleanedPrice * count
+                          : 0;
+                      })()}</del>
+                    </div>
+                    <div>
+                      ₹
+                      {(() => {
+                        const cleanedPrice = parseFloat(
+                          value.price.replace(/[^\d.]/g, "")
+                        );
+                        const count = Number(value.count);
+                        return !isNaN(cleanedPrice) && count
+                          ? cleanedPrice * count
+                          : 0;
+                      })()}
+                    </div>
                   </div>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div>Subtotal</div>
-                  <div>
-                    ₹
-                    {(() => {
-                      const cleanedPrice = parseFloat(
-                        value.price.replace(/[^\d.]/g, "")
-                      );
-                      const count = Number(value.count);
-                      return !isNaN(cleanedPrice) && count
-                        ? cleanedPrice * count
-                        : 0;
-                    })()}
-                  </div>
-                </div>
+
                 <div className="d-flex justify-content-between">
                   <div>Shipping</div>
                   <div>
@@ -621,6 +630,25 @@ function Orderplace() {
                           : 0;
                       })()}{" "}
                     </b>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <div>Savings</div>
+                  <div>
+                    ₹
+                    {(() => {
+                      const cleanedPrice = parseFloat(
+                        value.price.replace(/[^\d.]/g, "")
+                      );
+                      const counts = Number(value.count);
+                       
+                      const count = parseFloat(
+                        value.delete.replace(/[^\d.]/g, "")
+                      );
+                      return !isNaN(cleanedPrice) && count
+                        ? count*counts - cleanedPrice*counts
+                        : 0;
+                    })()}
                   </div>
                 </div>
               </div>

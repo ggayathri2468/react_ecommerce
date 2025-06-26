@@ -96,11 +96,11 @@ function Productpage() {
                 boxShadow: " rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
                 padding: "15px 5px",
                 maxWidth:"200px",
-                height:"350px",
+                height:"370px",
                 borderRadius:"10px"
               }}
             >
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center" style={{backgroundColor:"rgb(234, 234, 234)"}}>
                 <img
                   src={item.img_link}
                   alt={item.product_type}
@@ -112,24 +112,27 @@ function Productpage() {
                   }}
                 />
               </div>
-              <div style={{ padding: "12px" }}>
+              <div style={{ padding: "0px 5px" }}>
                 <p
                   className=""
-                  style={{ color: "rgb(131, 130, 130)", marginBottom: "5px",fontWeight:"bold" }}
+                  style={{ color: "rgb(3, 3, 3)", marginBottom: "5px", fontSize:"14px" }}
                 >
                   {item.productname}
                 </p>
                 <p style={{ marginBottom: "5px" ,fontWeight:"bold",}}>
-                  <i className="fa-solid fa-indian-rupee-sign" style={{paddingRight:"3px"}}></i>
-                  {item.price}
+                  <span> <i className="fa-solid fa-indian-rupee-sign" style={{paddingRight:"3px"}}></i>
+                  {item.price}</span>
+                 
                 </p>
+                <p style={{marginBottom:"0px"}}>{item.discount} off<span style={{fontSize:"14px",color: "rgb(131, 130, 130)"}}> <del><i className="fa-solid fa-indian-rupee-sign" style={{paddingRight:"1px",fontSize:"14px"}}></i>{item.delete}</del></span></p>
                 <p
                   style={{
-                    padding: "3px 5px",
+                    padding: "3px 3px",
                     color: "grey",
                     backgroundColor: "",
                     borderRadius: "5px",
                     marginBottom: "5px",
+                    fontSize:"13px"
                   }}
                 >
                   Free Delivery

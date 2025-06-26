@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 // import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
 
-import "./Thanku.css"
+import "./Thanku.css";
 
 // const containerStyle = {
 //   width: "100%",
@@ -16,12 +16,11 @@ import "./Thanku.css"
 //   lng: 0,
 // };
 
-
- function Thanku() {
+function Thanku() {
   const [userdata, setUserdata] = useState({});
   const navigate = useNavigate();
   let email = localStorage.getItem("email");
-    // const [locations, setLocations] = useState(null);
+  // const [locations, setLocations] = useState(null);
 
   let location = useLocation();
   let seleted_product = location.state.selectedProduct;
@@ -31,7 +30,7 @@ import "./Thanku.css"
   //   const { isLoaded } = useLoadScript({
   //   googleMapsApiKey: "AIzaSyB2Big-rLr1lkxv3pYfw1VfuM3aEBHWpho", // 🔁 Replace with your API key
   // });
-// apikey=AIzaSyDe3AbtYKd-Gdg6EtKtQFWVxFNMW2YBeCM
+  // apikey=AIzaSyDe3AbtYKd-Gdg6EtKtQFWVxFNMW2YBeCM
   useEffect(() => {
     axios
       .get(`http://localhost:3000/datas?email=${email}`)
@@ -42,26 +41,26 @@ import "./Thanku.css"
       .catch((e) => {
         console.log("error", e);
       });
-  //  const getCoordinates = async () => {
-  //     try {
-  //       const response = await axios.get(
-  //         `https://maps.googleapis.com/maps/api/geocode/json`,
-  //         {
-  //           params: {
-  //             address: mapaddress,
-  //             key: "AIzaSyB2Big-rLr1lkxv3pYfw1VfuM3aEBHWpho", // 🔁 Replace again here
-  //           },
-  //         }
-  //       );
-  //       if (response.data.status === "OK") {
-  //         // const locationData = response.data.results[0].geometry.location;
-  //         // setLocations(locationData);
-  //       } else {
-  //         console.error("Geocode error:", response.data.status);
-  //       }
-  //     } catch (error) {
-  //       console.error("API error:", error);
-  //     }
+    //  const getCoordinates = async () => {
+    //     try {
+    //       const response = await axios.get(
+    //         `https://maps.googleapis.com/maps/api/geocode/json`,
+    //         {
+    //           params: {
+    //             address: mapaddress,
+    //             key: "AIzaSyB2Big-rLr1lkxv3pYfw1VfuM3aEBHWpho", // 🔁 Replace again here
+    //           },
+    //         }
+    //       );
+    //       if (response.data.status === "OK") {
+    //         // const locationData = response.data.results[0].geometry.location;
+    //         // setLocations(locationData);
+    //       } else {
+    //         console.error("Geocode error:", response.data.status);
+    //       }
+    //     } catch (error) {
+    //       console.error("API error:", error);
+    //     }
     // };
 
     // getCoordinates();
@@ -72,7 +71,7 @@ import "./Thanku.css"
       className=" d-flex justify-content-center media"
       style={{ position: "relative" }}
     >
-      <div style={{ margin: "0 auto", width:"70%" }}>
+      <div style={{ margin: "0 auto", width: "70%" }}>
         <div className="  " style={{ maxWidth: "500px", margin: "30px auto" }}>
           <div>
             <p>orderId {userdata.id}</p>
@@ -88,7 +87,9 @@ import "./Thanku.css"
       </GoogleMap>
               
             </div> */}
-                <h5 style={{ color: "rgb(82, 82, 82)" }}>Your order is confirmed</h5>
+            <h5 style={{ color: "rgb(82, 82, 82)" }}>
+              Your order is confirmed
+            </h5>
 
             <div
               style={{
@@ -98,9 +99,7 @@ import "./Thanku.css"
                 marginBottom: "20px",
               }}
             >
-              <div>
-                
-              </div>
+              <div></div>
               <h5>Order details</h5>
               <div className="d-flex" style={{}}>
                 <div>
@@ -141,9 +140,7 @@ import "./Thanku.css"
           </div>
         </div>
       </div>
-      <div
-       className="sidesticky"
-      >
+      <div className="sidesticky">
         <div
           style={{
             Width: "100%",
@@ -160,9 +157,8 @@ import "./Thanku.css"
                   boxShadow: " rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
                   padding: "10px",
                   borderRadius: "10px",
-                  width: "300px",
-                  backgroundColor:"white"
-                  
+                  width: "350px",
+                  backgroundColor: "white",
                 }}
               >
                 <div
@@ -195,33 +191,42 @@ import "./Thanku.css"
                   </div>
                   <div>{value.productname}</div>
                   <div>
-                    ₹
-                    {(() => {
-                      const cleanedPrice = parseFloat(
-                        value.price.replace(/[^\d.]/g, "")
-                      );
-                      const count = Number(value.count);
-                      return !isNaN(cleanedPrice) && count
-                        ? cleanedPrice * count
-                        : 0;
-                    })()}
+                    <div
+                      style={{
+                        fontSize: "14px",
+                        paddingRight: "5px",
+                        color: "rgb(131, 130, 130)",
+                      }}
+                    >
+                      <i
+                        className="fa-solid fa-indian-rupee-sign"
+                        style={{ paddingRight: "1px" }}
+                      ></i>{" "}
+                      <del>{(() => {
+                        const cleanedPrice = parseFloat(
+                          value.delete.replace(/[^\d.]/g, "")
+                        );
+                        const count = Number(value.count);
+                        return !isNaN(cleanedPrice) && count
+                          ? cleanedPrice * count
+                          : 0;
+                      })()}</del>
+                    </div>
+                    <div>
+                      ₹
+                      {(() => {
+                        const cleanedPrice = parseFloat(
+                          value.price.replace(/[^\d.]/g, "")
+                        );
+                        const count = Number(value.count);
+                        return !isNaN(cleanedPrice) && count
+                          ? cleanedPrice * count
+                          : 0;
+                      })()}
+                    </div>
                   </div>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div>Subtotal</div>
-                  <div>
-                    ₹
-                    {(() => {
-                      const cleanedPrice = parseFloat(
-                        value.price.replace(/[^\d.]/g, "")
-                      );
-                      const count = Number(value.count);
-                      return !isNaN(cleanedPrice) && count
-                        ? cleanedPrice * count
-                        : 0;
-                    })()}
-                  </div>
-                </div>
+
                 <div className="d-flex justify-content-between">
                   <div>Shipping</div>
                   <div>
@@ -247,6 +252,23 @@ import "./Thanku.css"
                     </b>
                   </div>
                 </div>
+                <div className="d-flex justify-content-between">
+                  <div>Savings</div>
+                  <div>
+                    ₹
+                    {(() => {
+                      const cleanedPrice = parseFloat(
+                        value.price.replace(/[^\d.]/g, "")
+                      );
+                      const count = parseFloat(
+                        value.delete.replace(/[^\d.]/g, "")
+                      );
+                      return !isNaN(cleanedPrice) && count
+                        ? count - cleanedPrice
+                        : 0;
+                    })()}
+                  </div>
+                </div>
               </div>
             </div>
           ))}
@@ -257,5 +279,3 @@ import "./Thanku.css"
 }
 
 export default Thanku;
-
-
