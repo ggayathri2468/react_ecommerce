@@ -9,7 +9,7 @@
         {
           "id": "3",
           "product_type": "Phone",
-          "img_link": "../public/images/image3.webp",
+          "img_link": "/react_ecommerce/images/image3.webp",
           "price": "35,000",
           "productname": "Poco C61",
           "count": 1
@@ -17,7 +17,7 @@
         {
           "id": "1",
           "product_type": "Phone",
-          "img_link": "../public/images/image.png",
+          "img_link": "/react_ecommerce/images/image.png",
           "price": "11,000",
           "productname": "Vivo V20",
           "count": 1
@@ -59,7 +59,7 @@
             {
               "id": "1",
               "product_type": "Phone",
-              "img_link": "../public/images/image.png",
+              "img_link": "/react_ecommerce/images/image.png",
               "price": "11,000",
               "productname": "Vivo V20",
               "count": 2
@@ -81,7 +81,7 @@
             {
               "id": "2",
               "product_type": "Phone",
-              "img_link": "../public/images/image2.jpg",
+              "img_link": "/react_ecommerce/images/image2.jpg",
               "price": "13,500",
               "productname": "One Plus",
               "count": 1
@@ -103,7 +103,7 @@
             {
               "id": "2",
               "product_type": "Phone",
-              "img_link": "../public/images/image2.jpg",
+              "img_link": "/react_ecommerce/images/image2.jpg",
               "price": "13,500",
               "productname": "One Plus",
               "count": 1
@@ -125,7 +125,7 @@
             {
               "id": "2",
               "product_type": "Phone",
-              "img_link": "../public/images/image2.jpg",
+              "img_link": "/react_ecommerce/images/image2.jpg",
               "price": "13,500",
               "productname": "One Plus",
               "count": 1
@@ -147,7 +147,7 @@
             {
               "id": "1",
               "product_type": "Phone",
-              "img_link": "../public/images/image.png",
+              "img_link": "/react_ecommerce/images/image.png",
               "price": "11,000",
               "productname": "Vivo V20",
               "count": 1
@@ -169,7 +169,7 @@
             {
               "id": "4",
               "product_type": "Phone",
-              "img_link": "../public/images/image4.webp",
+              "img_link": "/react_ecommerce/images/image4.webp",
               "price": "90,000",
               "productname": "iphone 14",
               "count": 1
@@ -196,7 +196,7 @@
         {
           "id": "2",
           "product_type": "Phone",
-          "img_link": "../public/image/phone7.jfif",
+          "img_link": "/react_ecommerce/image/phone7.jfif",
           "price": "13,500",
           "productname": "One Plus",
           "count": 1
@@ -209,7 +209,7 @@
             {
               "id": "4",
               "product_type": "Phone",
-              "img_link": "../public/image/phone2.jfif",
+              "img_link": "/react_ecommerce/image/phone2.jfif",
               "price": "90,000",
               "productname": "iphone 14",
               "count": 2
@@ -231,7 +231,7 @@
             {
               "id": "3",
               "product_type": "Phone",
-              "img_link": "../public/image/phone8.jfif",
+              "img_link": "/react_ecommerce/image/phone8.jfif",
               "price": "35,000",
               "productname": "Poco C61",
               "count": 1
@@ -265,7 +265,7 @@
         {
           "id": "3",
           "product_type": "Phone",
-          "img_link": "../public/image/phone8.jfif",
+          "img_link": "/react_ecommerce/image/phone8.jfif",
           "price": "35,000",
           "productname": "Poco C61",
           "count": 1
@@ -273,7 +273,7 @@
         {
           "id": "2",
           "product_type": "Phone",
-          "img_link": "../public/image/phone7.jfif",
+          "img_link": "/react_ecommerce/image/phone7.jfif",
           "price": "13,500",
           "productname": "One Plus",
           "count": 3
@@ -286,7 +286,7 @@
             {
               "id": "1",
               "product_type": "Phone",
-              "img_link": "../public/image/phone6.jfif",
+              "img_link": "/react_ecommerce/image/phone6.jfif",
               "price": "11,000",
               "productname": "Vivo V20",
               "count": 1
@@ -325,105 +325,105 @@
     {
       "id": "1",
       "product_type": "Phone",
-      "img_link": "../public/images/image.png",
+      "img_link": "/react_ecommerce/images/image.png",
       "price": "11,000",
       "productname": "Vivo V20"
     },
     {
       "id": "2",
       "product_type": "Phone",
-      "img_link": "../public/images/image2.jpg",
+      "img_link": "/react_ecommerce/images/image2.jpg",
       "price": "13,500",
       "productname": "One Plus"
     },
     {
       "id": "3",
       "product_type": "Phone",
-      "img_link": "../public/images/image3.webp",
+      "img_link": "/react_ecommerce/images/image3.webp",
       "price": "35,000",
       "productname": "Poco C61"
     },
     {
       "id": "4",
       "product_type": "Phone",
-      "img_link": "../public/images/image4.webp",
+      "img_link": "/react_ecommerce/images/image4.webp",
       "price": "90,000",
       "productname": "iphone 14"
     },
     {
       "id": "5",
       "product_type": "Phone",
-      "img_link": "../public/images/image5.jpg",
+      "img_link": "/react_ecommerce/images/image5.jpg",
       "price": "16,000",
       "productname": "Vivo V50"
     },
     {
       "id": "6",
       "product_type": "Phone",
-      "img_link": "../public/images/image6.webp",
+      "img_link": "/react_ecommerce/images/image6.webp",
       "price": "92,000",
       "productname": "iphone 14 pro"
     },
     {
       "id": "7",
       "product_type": "Phone",
-      "img_link": "../public/images/image7.webp",
+      "img_link": "/react_ecommerce/images/image7.webp",
       "price": "30,000",
       "productname": "Oppo Reno10 pro+"
     },
     {
       "id": "8",
       "product_type": "Phone",
-      "img_link": "../public/images/image8.webp",
+      "img_link": "/react_ecommerce/images/image8.webp",
       "price": "18,000",
       "productname": "Vivo V40"
     },
     {
       "id": "9",
       "product_type": "Phone",
-      "img_link": "../public/images/image9.webp",
+      "img_link": "/react_ecommerce/images/image9.webp",
       "price": "99,999",
       "productname": "Galaxy A12"
     },
     {
       "id": "10",
       "product_type": "Phone",
-      "img_link": "../public/images/image10.webp",
+      "img_link": "/react_ecommerce/images/image10.webp",
       "price": "1,15,000",
       "productname": "iphone 15"
     },
     {
       "id": "11",
       "product_type": "Phone",
-      "img_link": "../public/images/image11.webp",
+      "img_link": "/react_ecommerce/images/image11.webp",
       "price": "45,000",
       "productname": "Galaxy A54 5g"
     },
     {
       "id": "12",
       "product_type": "Phone",
-      "img_link": "../public/images/image12.webp",
+      "img_link": "/react_ecommerce/images/image12.webp",
       "price": "36,000",
       "productname": "Galaxy F05"
     },
     {
       "id": "13",
       "product_type": "Phone",
-      "img_link": "../public/images/image13.webp",
+      "img_link": "/react_ecommerce/images/image13.webp",
       "price": "27,000",
       "productname": "Oppo Reno7"
     },
     {
       "id": "14",
       "product_type": "Phone",
-      "img_link": "../public/images/image14.webp",
+      "img_link": "/react_ecommerce/images/image14.webp",
       "price": "31,000",
       "productname": "Vivo v57"
     },
     {
       "id": "15",
       "product_type": "Phone",
-      "img_link": "../public/images/image15.webp",
+      "img_link": "/react_ecommerce/images/image15.webp",
       "price": "1,15,000",
       "productname": "iphone 15pro"
     }
