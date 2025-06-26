@@ -34,6 +34,7 @@ function Signinpage() {
           if (data.data[0].password === getdata.password) {
             console.log("correct");
              navicate("/product");
+             setGetdata({username:"",password:""})
           } else {
             setPassworderror("Incorrect Password");
           }
