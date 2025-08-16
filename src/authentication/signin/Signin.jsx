@@ -55,8 +55,8 @@ function Signinpage() {
 
   return (
     <div
-      className="d-flex justify-content-center align-items-center"
-      style={{ marginTop: "90px" }}
+      className="d-flex justify-content-center align-items-center marigntop"
+     
     >
       <div className="sideimg1">
         <h2 className="title1">Signin to your account</h2>

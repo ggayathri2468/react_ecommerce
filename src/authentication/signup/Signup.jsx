@@ -141,8 +141,8 @@ export function Signup() {
   }
   return (
     <div
-      className="login_container d-flex justify-content-center align-items-center"
-      style={{ marginTop: "90px" }}
+      className="login_container d-flex justify-content-center align-items-center marigntop"
+      
     >
       <div className="sideimg">
         <h2 className="title">Create Your Account</h2>

@@ -33,7 +33,9 @@
         background-position: 0px 0px;
     }
 }
-
+.marigntop{
+    margin-top: 90px;
+}
 .sign {
     width: 500px;
     border: 1px solid #41054b;
@@ -72,4 +74,35 @@
 .spansignup{
      font-weight: bold;
       color: #BA68C8;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .sideimg1{
+    display: none;
+  }
+  .sign{
+    width: 400px;
+    border-radius: 10px;
+
+  }
+.marigntop{
+    margin-top: 45px;
+}
+  
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .sideimg1{
+    display: none;
+  }
+  .sign{
+    width: 400px;
+    border-radius: 10px;
+
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
 }

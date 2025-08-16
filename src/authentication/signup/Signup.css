@@ -89,3 +89,49 @@
     font-weight: bold;
     color: #BA68C8
 }
+.marigntop{
+    margin-top: 90px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .sideimg{
+        display: none;
+    }
+    .login{
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 40px;
+     height: 500px;
+
+  }
+.marigntop{
+    margin-top: 50px;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .sideimg{
+        display: none;
+    }
+    .login{
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 40px;
+     height: 500px;
+
+  }
+.marigntop{
+    margin-top: 50px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+.marigntop{
+    margin-top: 30px;
+}
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+.marigntop{
+    margin-top: 80px;
+}
+}
